@@ -1,0 +1,98 @@
+@import url(./fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    padding-top: 177px;
+    padding-bottom: 177px;
+    padding-left: 165px;
+    padding-right: 165px;
+}
+
+.card-component {
+    border-radius: 8px;
+    background: #1B1937;
+    box-shadow: 0px 20px 20px -10px rgba(23, 25, 41, 0.20);
+    display: flex;
+}
+
+.card-component__list {
+    padding-top: 71px;
+    padding-left: 72px;
+    padding-bottom: 59px;
+    padding-right: 50px;
+}
+
+.card-component__titel {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+    /* 122.222% */
+    padding-bottom: 25px;
+
+}
+
+.card-component__text {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px
+}
+
+.card-component__nav {
+    display: flex;
+
+    column-gap: 65px;
+    
+}
+
+.card-component__li {
+    color: #FFF;
+    margin-top: 35px;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+} 
+
+.card-component__navv {
+    display: flex;
+    column-gap: 64px;
+    
+}
+
+
+.card-component__ll {
+    color: #FFF;
+    font-family: "Lexend Deca";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    /* 208.333% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    column-gap: 64px;
+}
